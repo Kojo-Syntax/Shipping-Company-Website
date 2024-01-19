@@ -23,27 +23,11 @@ html {
     
 }
 
-body {
-    background: var(--bg-color);
-}
 
-section {
-    min-height: 100vh;
-    padding: 10rem 9% 2rem;
-}
 
-.header{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 0.7rem 9%;
-    background: var(--bg-color);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 100;
-}
+
+
+
 
 .header.sticky {
     border-bottom: .1rem solid rgba(0, 0, 0, .2);
